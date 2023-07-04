@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 //import homeLogo from "../../Assets/home-main.svg";
 import myImg from "../../Assets/home-main.png";
-import Home2 from "./Home2";
 import Type from "./Type";
 const ColoredLine = ({ color }) => (
   <hr
@@ -83,7 +82,6 @@ function Home() {
         </Container>
       </Container>
 
-      <Home2 />
     </section>
 
   );
