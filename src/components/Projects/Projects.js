@@ -24,7 +24,7 @@ function Projects() {
               isBlog={false}
               title="Cornell Trading Competition"
               date = "2022"
-              description="Won the first Cornell Trading Competition through superior performance in three separate cases: Options, Crytocurrencies, and Equities."
+              description="Won the first Cornell Trading Competition through superior performance across three cases: Options, Crytocurrencies, and Equities."
               ghLink="https://github.com/bryantpark04/ctc2022"
               demoLink="https://cornellquantfund.org/competition"
             />
@@ -74,36 +74,15 @@ function Projects() {
               demoLink="https://teslasftc.weebly.com/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ai}
-              isBlog={false}
-              title="VEX AI Robotics"
-              date="2021"
-              description="Utilized AI with the NVidia Jetson Nano paired with depth perception cameras, progammed in C++ using advanced math for high fidelity sensor programming."
-              ghLink="https://github.com/sohumsuthar/91008A-VEX-AI"
-              //demoLink="https://docs.google.com/document/d/1lh3AYdR2V4zIdTpO24tG1HMpoaHcadkZX031bctqgSs/edit?usp=sharing"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="YouTube"
-              date = "2017"
-              description="YouTube channel managed by me for technology education."
-              //ghLink="https://github.com/sohumsuthar/91008A-VEX-AI"
-              demoLink="https://www.youtube.com/c/NanoBeasts"
-            />
-          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={blog}
               isBlog={false}
               title="Portfolio"
-              description="sohumsuthar.com! Programmed with node.js and react in VSCode"
-              ghLink="https://github.com/sohumsuthar/portfolio"
-              demoLink="https://www.sohumsuthar.com/"
+              description="zhangedward.com! Programmed with node.js and react in VSCode"
+              ghLink="https://github.com/eeeddddddiiieee/portfolio"
+              demoLink="https://www.zhangedward.com/"
             />
           </Col>
 
