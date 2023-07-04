@@ -6,9 +6,9 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import suicide from "../../Assets/Projects/ctc.png";
 import blog from "../../Assets/Projects/blog.png";
-import ai from "../../Assets/Projects/AI.png";
+import dyad from "../../Assets/Projects/dyad.png";
 import mars from "../../Assets/Projects/mars.png";
 function Projects() {
   return (
@@ -18,6 +18,17 @@ function Projects() {
         projects
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dyad}
+              isBlog={false}
+              title="Dyad"
+              date = "2022-"
+              description="Working as a core quant with the Dyad team to develop a stablecoin."
+              //ghLink="https://github.com/bryantpark04/ctc2022"
+              demoLink="https://dyadstable.com"
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
@@ -59,7 +70,7 @@ function Projects() {
               title="FIRST Tech Challenge Robotics"
               date ="2019-2021"
               description="I co-founded the first-ever FTC team at the Illinois Mathematics and Science Academy in 2019, TITANS FTC #17576. Won 2nd place Think Award at the IL State Championsip in 2021."
-              //ghLink="https://github.com/sohumsuthar/portfolio"
+              ghLink="https://github.com/titans17576"
               demoLink="https://titansftc.weebly.com/"
             />
           </Col>
@@ -69,8 +80,8 @@ function Projects() {
               isBlog={false}
               title="FIRST Tech Challenge Robotics"
               date="2018-2019"
-              description="I was part of team TESLAS #13197 as the mechanical lead in my freshman year. Division Finalist at State Championship 2019."
-              //ghLink="https://github.com/sohumsuthar/portfolio"
+              description="I was part of team TESLAS #13197 as the mechanical lead in my freshman year. Cooper Division Finalist at IL State Championship 2019."
+              ghLink="https://github.com/advait-patel-17/RoverRuckus_13197"
               demoLink="https://teslasftc.weebly.com/"
             />
           </Col>
