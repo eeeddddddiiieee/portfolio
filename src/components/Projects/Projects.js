@@ -8,7 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/ctc.png";
 import blog from "../../Assets/Projects/blog.png";
-import dyad from "../../Assets/Projects/dyad.png";
+import dyad from "../../Assets/Projects/dyad1.png";
 import mars from "../../Assets/Projects/mars.png";
 function Projects() {
   return (
@@ -91,7 +91,7 @@ function Projects() {
               imgPath={blog}
               isBlog={false}
               title="Portfolio"
-              description="zhangedward.com! Programmed with node.js and react in VSCode"
+              description="zhangedward.com! Programmed with node.js and react in VSCode."
               ghLink="https://github.com/eeeddddddiiieee/portfolio"
               demoLink="https://www.zhangedward.com/"
             />
