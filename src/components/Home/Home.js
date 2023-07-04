@@ -40,14 +40,14 @@ function Home() {
                   style={{ float: "left", maxHeight: "35vh", borderRadius: 25, maxWidth: "35vw", textalign: "right" }}
                 />
                 <h1 className="project-heading6">
-                  Sohum Suthar
+                  Edward Zhang
                 </h1>
-                Hey! I am a Senior at Neuqua Valley High School.
+                Hey! I'm a Sophomore at Duke University majoring in Mathematics and Statistics.
                 <br />
 
                 <br /> I have a passion for 
                 
-                  <b href = {"https://www.sohumsuthar.com/"} className="purple"> Electrical Engineering, Physics, and Robotics. </b>
+                  <b href = {"https://www.sohumsuthar.com/"} className="purple"> Quantitative Finance and Web3. </b>
                 
                 <br />
                 <br />
@@ -60,7 +60,7 @@ function Home() {
       
                 <br />
                 <br />
-                Feel free to email me at: <b className="purple"> sohumksuthar@gmail.com </b>
+                Feel free to email me at: <b className="purple"> edward.zhang@duke.edu </b>
                 or connect with me on
             
                   <b className="purple">
