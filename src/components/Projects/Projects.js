@@ -18,6 +18,17 @@ function Projects() {
         projects
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="Cornell Trading Competition"
+              date = "2022"
+              description="Won the first Cornell Trading Competition through superior performance in three separate cases: Options, Crytocurrencies, and Equities."
+              ghLink="https://github.com/bryantpark04/ctc2022"
+              demoLink="https://cornellquantfund.org/competition"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -25,7 +36,7 @@ function Projects() {
               title="Wordle Solver"
               date = "2022"
               description="Project from my time at the Jane Street Academy of Math and Programming. Average of 3.63 guesses."
-              ghLink="https://github.com/sohumsuthar/tunnelrobot"
+              ghLink="https://github.com/eeeddddddiiieee/wordle-eeeddddddiiieee/"
               demoLink="https://www.janestreet.com/join-jane-street/programs-and-events/amp/"
             />
           </Col>
@@ -40,17 +51,7 @@ function Projects() {
               demoLink="https://www.singularityftc.org"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Cornell Trading Competition"
-              date = "2022"
-              description="Won the first Cornell Trading Competition through superior performance in three separate cases: Options, Crytocurrencies, and Equities."
-              ghLink="https://github.com/bryantpark04/ctc2022"
-              demoLink="https://cornellquantfund.org/competition"
-            />
-          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
