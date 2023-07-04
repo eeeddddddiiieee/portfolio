@@ -56,6 +56,15 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/project">
+
+<h1 className="nav-linkprops">projects</h1>
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/resume"
               >
                 <h1 className="nav-linkprops">resume</h1>
