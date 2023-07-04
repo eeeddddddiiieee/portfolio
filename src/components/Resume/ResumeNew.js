@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/sohumsuthar/VRC-2360-SIngularity-22-23/5f86b1f253ec3f3d23558572147a6288ef953506/resume.pdf";
+  "https://drive.google.com/file/d/1d7W1boTm6HEy26tdIpSKt8wPkwfv38VG/view?usp=sharing";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -29,16 +29,7 @@ function ResumeNew() {
             resume
           </h1>
         <Row >
-          <Button
-            variant="primare"
-            href={resumeLink}
-            target="_blank"
-            style={{ maxWidth: "150px" }}
-
-          >
-            <AiOutlineDownload />
-            &nbsp; download
-          </Button>
+          
         </Row>
         <Row className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
