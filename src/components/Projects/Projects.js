@@ -22,55 +22,55 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="AI Robot for Particle Accelerators"
-              date = "2020"
-              description="AI robot powered by an NVidia Jetson Nano equipped with high fidelity sensing to survey high radiation facilities."
+              title="Wordle Solver"
+              date = "2022"
+              description="Project from my time at the Jane Street Academy of Math and Programming. Average of 3.63 guesses."
               ghLink="https://github.com/sohumsuthar/tunnelrobot"
-              demoLink="https://inspirehep.net/files/2caa5754c7df0c53bde506d9f3592abc"
+              demoLink="https://www.janestreet.com/join-jane-street/programs-and-events/amp/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Racing Quadcopter"
-              date = "2017"
-              description="A high fidelity quadcopter equipped with low latency hardware for racing, freestyle, and surveillance. Capable of speeds over 100mph"
-              //ghLink=""
-              demoLink="https://docs.google.com/document/d/1lh3AYdR2V4zIdTpO24tG1HMpoaHcadkZX031bctqgSs/edit?usp=sharing"
+              title="FIRST Tech Challenge Robotics"
+              date = "2021-2022"
+              description="Founded FTC Team #19379 Singularity in 2021. Regional Winning Alliance, IL State Championship 2nd Place Connect Award."
+              ghLink="https://github.com/eeeddddddiiieee/FTC-19379"
+              demoLink="https://www.singularityftc.org"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="VEX EDR Robotics"
-              date = "2021"
-              description="Progammed in C++ using advanced math for high fidelity sensor programming."
-              ghLink="https://github.com/sohumsuthar/VRC-2360-SIngularity-22-23"
-              //demoLink="https://docs.google.com/document/d/1lh3AYdR2V4zIdTpO24tG1HMpoaHcadkZX031bctqgSs/edit?usp=sharing"
+              title="Cornell Trading Competition"
+              date = "2022"
+              description="Won the first Cornell Trading Competition through superior performance in three separate cases: Options, Crytocurrencies, and Equities."
+              ghLink="https://github.com/bryantpark04/ctc2022"
+              demoLink="https://cornellquantfund.org/competition"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Acoustic Levitator"
-              date ="2020"
-              description="To determine the nature of movement of three beads of varying density within an acoustic field of varying frequency."
+              title="FIRST Tech Challenge Robotics"
+              date ="2019-2021"
+              description="I co-founded the first-ever FTC team at the Illinois Mathematics and Science Academy in 2019, TITANS FTC #17576. Won 2nd place Think Award at the IL State Championsip in 2021."
               //ghLink="https://github.com/sohumsuthar/portfolio"
-              demoLink="https://docs.google.com/document/d/1gtclfe1hiWl5CQ3kAAX0jjfAxGkqkD-Wo3U_UuJk_FE/edit?usp=sharing"
+              demoLink="https://titansftc.weebly.com/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mars}
               isBlog={false}
-              title="Durability of Martian Soil Bricks"
-              date="2018"
-              description="To determine whether a brick made from Earth soil and Mars soil (MMS1 and MMS2) will last longer and not crack while undergoing a test of durability."
+              title="FIRST Tech Challenge Robotics"
+              date="2018-2019"
+              description="I was part of team TESLAS #13197 as the mechanical lead in my freshman year. Division Finalist at State Championship 2019."
               //ghLink="https://github.com/sohumsuthar/portfolio"
-              demoLink="https://docs.google.com/document/d/1rqQ7vdI8uljrIvWcVBCMeWWbyqvirCT6SXBGin4oR90/edit?usp=sharing"
+              demoLink="https://teslasftc.weebly.com/"
             />
           </Col>
           <Col md={4} className="project-card">
