@@ -85,7 +85,7 @@ function NavBar() {
 
               <ul className="social-icons" >
                 <a
-                  href="https://github.com/sohumsuthar"
+                  href="https://github.com/eeeddddddiiieee"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -94,7 +94,7 @@ function NavBar() {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/sohum-suthar-67728022b/"
+                  href="https://www.linkedin.com/in/ez246"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
