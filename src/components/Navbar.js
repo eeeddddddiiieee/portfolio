@@ -49,17 +49,10 @@ function NavBar() {
           <Nav className="navbar-nav  " defaultActiveKey="#home">
             <Nav.Item className="nav-linkprops2">
               <Nav.Link as={Link} to="/">
-              <h1 className="nav-linkprops"><strong className="purple">sohum suthar </strong></h1>
+              <h1 className="nav-linkprops"><strong className="purple">Edward Zhang </strong></h1>
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project">
-
-<h1 className="nav-linkprops">projects</h1>
-              </Nav.Link>
-            </Nav.Item>
+            
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -69,14 +62,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/EDD"
-              >
-                <h1 className="nav-linkprops">EDD</h1>
-              </Nav.Link>
-            </Nav.Item>
+            
 
         </Nav>
         <Nav className="navbar-nav  " defaultActiveKey="#home">
