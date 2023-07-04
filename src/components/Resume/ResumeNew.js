@@ -29,10 +29,10 @@ function ResumeNew() {
             resume
           </h1>
         <Row >
-          
+        
         </Row>
         <Row className="resume">
-          <Document file={resume} className="d-flex justify-content-center">
+          <Document file={resumeLink} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
