@@ -46,7 +46,7 @@ function Home() {
 
                 <br /> I have a passion for 
                 
-                  <b href = {"https://www.sohumsuthar.com/"} className="purple"> Quantitative Finance, Statistics, and Algorithmic Trading. </b>
+                  <b href = {"https://www.zhangedward.com/"} className="purple"> Quantitative Finance, Statistics, and Algorithmic Trading. </b>
                 
                 <br />
                 <br />
