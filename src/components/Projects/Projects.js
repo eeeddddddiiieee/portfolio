@@ -24,8 +24,8 @@ function Projects() {
               isBlog={false}
               title="Dyad"
               date = "2022-"
-              description="Working as a core quant with the Dyad team to develop a stablecoin."
-              //ghLink="https://github.com/bryantpark04/ctc2022"
+              description="Working as a core quant with the Dyad team on a fundamentally new DeFi primitive."
+              ghLink="https://github.com/DyadStablecoin"
               demoLink="https://dyadstable.com"
             />
           </Col>
