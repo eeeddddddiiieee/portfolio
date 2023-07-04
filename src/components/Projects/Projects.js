@@ -37,7 +37,7 @@ function Projects() {
               date = "2022"
               description="Won the first Cornell Trading Competition through superior performance across three cases: Options, Crytocurrencies, and Equities."
               ghLink="https://github.com/bryantpark04/ctc2022"
-              demoLink="https://cornellquantfund.org/competition"
+              demoLink="https://cornellquantfund.org/"
             />
           </Col>
           <Col md={4} className="project-card">
