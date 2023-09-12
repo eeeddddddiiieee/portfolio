@@ -26,7 +26,7 @@ function Projects() {
               isBlog={false}
               title="Vex Robotics"
               date = "2023-"
-              description="Software lead of Duke VexU robotics team"
+              description="Software lead of Duke's VexU robotics team."
               ghLink="https://github.com/Duke-DVIL-Robotics"
               demoLink="https://www.vexrobotics.com/competition"
             />
@@ -37,7 +37,7 @@ function Projects() {
               isBlog={false}
               title="Caterpillar"
               date = "2023"
-              description="Summer intern with Caterpillar, Inc. in the Global Finance Services Division. Used Power BI, AWS Lambda, Microsoft Azure, PySpark"
+              description="Summer intern with Caterpillar, Inc. in the Global Finance Services Division. Used Power BI, AWS Lambda, Microsoft Azure, PySpark."
               ghLink=""
               demoLink="https://www.cat.com"
             />
