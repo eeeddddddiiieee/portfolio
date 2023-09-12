@@ -37,7 +37,7 @@ function Projects() {
               isBlog={false}
               title="Caterpillar"
               date = "2023"
-              description="Summer intern with Caterpillar Inc in the Global Finance Services Division"
+              description="Summer intern with Caterpillar, Inc. in the Global Finance Services Division. Used Power BI, AWS Lambda, Microsoft Azure, PySpark"
               ghLink=""
               demoLink="https://www.cat.com"
             />
