@@ -21,6 +21,17 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={null}
+              isBlog={false}
+              title="Vex Robotics"
+              date = "2023-"
+              description="Software lead of Duke VexU robotics team"
+              ghLink="https://github.com/Duke-DVIL-Robotics"
+              demoLink="https://www.vexrobotics.com/competition"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={cat}
               isBlog={false}
               title="Caterpillar"
