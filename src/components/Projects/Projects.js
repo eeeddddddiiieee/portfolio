@@ -10,6 +10,8 @@ import suicide from "../../Assets/Projects/ctc.png";
 import blog from "../../Assets/Projects/blog.png";
 import dyad from "../../Assets/Projects/dyad1.png";
 import mars from "../../Assets/Projects/mars.png";
+import cat from "../../Assets/Projects/cat.png";
+import vex from "../../Assets/Projects/vex.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -18,6 +20,28 @@ function Projects() {
         projects
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vex}
+              isBlog={false}
+              title="Vex Robotics"
+              date = "2023-"
+              description="Software lead of Duke's VexU robotics team."
+              ghLink="https://github.com/Duke-DVIL-Robotics"
+              demoLink="https://www.vexrobotics.com/competition"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cat}
+              isBlog={false}
+              title="Caterpillar"
+              date = "2023"
+              description="Summer intern with Caterpillar, Inc. in the Global Finance Services Division. Used Power BI, AWS Lambda, Microsoft Azure, PySpark."
+              ghLink=""
+              demoLink="https://www.cat.com"
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={dyad}
