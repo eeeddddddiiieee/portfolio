@@ -41,12 +41,12 @@ function Home() {
                 <h1 className="project-heading6">
                   Edward Zhang
                 </h1>
-                Hey! I'm a Sophomore at Duke University majoring in mathematics and computer science.
+                Hey! I'm a student at Duke University majoring in mathematics and computer science.
                 <br />
 
                 <br /> I have a passion for 
                 
-                  <b href = {"https://www.zhangedward.com/"} className="purple"> Quantitative Finance, DeFi, and Algorithmic Trading. </b>
+                  <b href = {"https://www.zhangedward.com/"} className="purple"> Quantitative Finance, DeFi, and Data Science. </b>
                 
                 <br />
                 <br />
